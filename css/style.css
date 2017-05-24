@@ -1,0 +1,52 @@
+.col-sm-6 {
+  height:200px;
+  background-color:#00ff00;
+}
+
+.col-sm-3 {
+  height: 200px;
+  background-color: #0000ff;
+}
+
+.col-sm-8 {
+  height: 75px;
+  background-color: #ffff00;
+}
+
+.col-sm-4 {
+  height:75px;
+  background-color: #00ffff;
+}
+
+.query-test {
+  width: 50%;
+  height: 400px;
+  background-color: #ff99ff;
+}
+
+.query-one {
+  width:50%;
+  height: 400px;
+  background-color: #f45ff7
+}
+
+/*Media Queries*/
+@media screen and (max-width: 900px) {
+  .query-test {
+    width: 80%;
+    background-color: #ff0000;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  h1.query-one {
+    width: 80%;
+    background-color: #66ff99;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h1.query-one {
+    font-size: 20px;
+  }
+}
